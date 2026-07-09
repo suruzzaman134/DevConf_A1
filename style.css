@@ -164,3 +164,14 @@ header div p {
   border-color: #2563eb;
   cursor: pointer;
 }
+.price_card:nth-child(2){
+   background-color: #0D1B2A;
+   color: white;
+}
+.price_card:nth-child(2) ul li{
+   color: white;
+}
+.price_card:nth-child(2) button{
+   background-color: #2563EB;
+   color: white;
+}
