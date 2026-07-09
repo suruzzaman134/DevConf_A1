@@ -1,0 +1,1 @@
+I am creating a developer conference landing page. I want to add a Developer Job Board section where developers can apply for jobs. Please provide the HTML and CSS code for this section and explain how each part of the code works.
