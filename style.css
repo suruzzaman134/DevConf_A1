@@ -175,3 +175,37 @@ header div p {
    background-color: #2563EB;
    color: white;
 }
+.footer{
+    background: #123255;
+    color: #fff;
+    padding: 30px 0;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.logo img{
+    width: 140px;
+}
+.social-links{
+    display: flex;
+    gap: 18px;
+}
+.social-links a{
+    color:rgb(11, 12, 63);
+    font-size: 22px;
+}
+.footer hr{
+    margin:30px 0 20px;
+    border:none;
+    height:1px;
+    background:#4c4c4c;
+}
+.copyright{
+    text-align:center;
+    color:#8a8989;
+    font-size:15px;
+}
