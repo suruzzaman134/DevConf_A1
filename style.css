@@ -126,6 +126,9 @@ header div p {
 .price_card ul {
   list-style-position: inside;
 }
+.price_card ul li::marker{
+  color: #2563EB;
+}
 .price_card > p:first-child {
   color: #888888;
   text-transform: uppercase;
@@ -140,6 +143,9 @@ header div p {
 }
 .price_card p:nth-child(3) {
   color: #888888;
+}
+.price_card:nth-child(2) p:first-child{
+  color: #93C5FD;
 }
 .price_card .line {
   width: 100%;
@@ -252,7 +258,7 @@ header div p {
     display:inline-block;
     margin-top:20px;
     text-decoration:none;
-    background:#7c3aed;
+    background:#4407ae;
     color:#fff;
     padding:12px 24px;
     border-radius:8px;
@@ -269,7 +275,7 @@ header div p {
     padding:16px 35px;
     border:none;
     border-radius:10px;
-    background:#7c3aed;
+    background:#330286;
     color:#fff;
     font-size:16px;
     font-weight:600;
@@ -300,7 +306,7 @@ header div p {
     gap: 18px;
 }
 .social-links a{
-    color:rgb(11, 12, 63);
+    color:rgb(1, 1, 14);
     font-size: 22px;
 }
 .footer hr{
